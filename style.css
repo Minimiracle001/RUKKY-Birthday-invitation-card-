@@ -1,0 +1,72 @@
+body {
+    background: url(img1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    text-align: center;
+    line-height: 1;
+    font-size: 1rem;
+    width: 100%;
+}
+.txt1{
+    
+}
+.txt1 h3{
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+    font-size: 5rem;
+    color: #ebc600;
+}
+.txt1 h1{
+    font-weight: bold;
+    font-size: 4rem;
+    color: #f5d00a;
+}
+.div1{
+    
+}
+.div1 h1{
+    color: red;
+    font-size: 4rem;
+    animation: bounce 1s infinite;
+    font-weight: bold;
+      font-family: cursive;
+}
+.div1 span{
+    color: white;
+      font-family: 'Lucida Calligraphy', cursive, sans-serif;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-40px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+.txt1 h2{
+    color: white;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+    font-size: 3rem;
+}
+.txt1 p{
+    font-size: 3rem;
+    font-family: 'Lucida Calligraphy', cursive, sans-serif;
+}
+.container{
+    margin: 18rem auto;
+}
+.div2{
+    color: white;
+}
+.div3{
+    font-size: 20px;
+    color: gold;
+    font-family: 'Snell Roundhand', cursive, sans-serif;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
